@@ -71,8 +71,10 @@ def custom_extend(input_list, second_list):
         True
 
     """
+    x = custom_len(input_list) #3
 
-    pass
+    input_list[x:x] = second_list 
+    
 
 
 def custom_insert(input_list, index, value):
