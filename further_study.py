@@ -49,8 +49,12 @@ def custom_append(input_list, value):
 
     """
 
-    pass
+    x = custom_len(input_list) #8
 
+    # notes[8:8] = ["Re"]
+    input_list[x:x] = [value] 
+
+    
 
 def custom_extend(input_list, second_list):
     """Append every item in second_list to input_list.
